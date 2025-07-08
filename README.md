@@ -1,16 +1,49 @@
-## Hi there 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Deals On Me</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; text-align: center; }
+    header { background: #007bff; color: #fff; padding: 40px 20px; }
+    h1 { margin: 0; font-size: 2.5em; }
+    nav a { color: #fff; margin: 0 15px; text-decoration: underline; }
+    .deals { display: flex; flex-wrap: wrap; justify-content: center; padding: 40px 20px; gap: 20px; }
+    .deal { border: 1px solid #ccc; border-radius: 8px; max-width: 300px; text-align: left; overflow: hidden; }
+    .deal img { width: 100%; display: block; }
+    .deal-content { padding: 20px; }
+    .deal-content h2 { margin-top: 0; font-size: 1.5em; }
+    .deal-content p { margin: 10px 0; }
+    .deal-content a.button { display: inline-block; background: #007bff; color: #fff; text-decoration: none; padding: 10px 20px; border-radius: 4px; }
+    footer { background: #f5f5f5; padding: 20px; font-size: 0.9em; }
+    @media (max-width: 768px) { .deals { flex-direction: column; align-items: center; } }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Deals On Me</h1>
+    <nav>
+      <a href="june-6th.html" target="_blank">June 6th</a>
+    </nav>
+    <p>Find the latest deals!</p>
+  </header>
+  <main>
+    <section class="deals">
+      <div class="deal">
+        <img src="https://via.placeholder.com/300x200" alt="Product 1">
+        <div class="deal-content">
+          <h2>Product Name 1</h2>
+          <p>Description of product 1 goes here.</p>
+          <a class="button" href="#">Get Deal</a>
+        </div>
+      </div>
+    </section>
+  </main>
+  <footer>
+    &copy; 2025 Deals On Me. All rights reserved.
+  </footer>
+</body>
+</html>
 
-<!--
-**DealsOnMe/DealsOnMe** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+<!-- Create a separate file called june-6th.html with similar structure and product list -->
